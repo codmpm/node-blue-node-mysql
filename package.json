@@ -1,0 +1,16 @@
+{
+  "name": "node-blue-node-mysql",
+  "version": "1.0.0",
+  "description": "This package provides a MySQL node for Node-BLUE.",
+  "homepage": "https://github.com/codmpm/node-blue-node-mysql",
+  "node-blue": {
+    "maxThreadCounts": {
+      "mysql": 0,
+      "mysql-server": 0
+    },
+    "nodes": {
+      "mysql": "mysql.s.php",
+      "mysql-server": "mysql-server.s.php"
+    }
+  }
+}
